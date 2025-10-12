@@ -210,6 +210,14 @@ end
 
 # Falsy
 # nil, false
+
+# Unless
+age = 17
+unless age >= 18
+  puts "You are not old enough to vote."
+else
+  puts "You are old enough to vote."
+end
 ```
 
 ### Loop
