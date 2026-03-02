@@ -49,6 +49,19 @@ mise use -g ruby@3.4.7
 mise ls
 ```
 
+ถ้าระหว่างติดตั้งแล้วเจอ ​Error ประมาณนี้
+
+```
+mise ERROR Failed to install core:ruby@4.0.1: ~/Library/Caches/mise/ruby/ruby-build/bin/ruby-build exited with non-zero status: exit code 1
+mise ERROR Run with --verbose or MISE_VERBOSE=1 for more information
+```
+
+ให้ติดตั้ง `ruby-build` เพิ่ม บน Mac จะติดตั้งผ่าน Homebrew โดยใช้คำสั่ง
+
+```bash
+brew install ruby-build
+```
+
 ### Running Ruby
 
 เวลาเราจะรัน Ruby (แบบกำหนดเวอร์ชั่น) เราจะใช้คำสั่ง
